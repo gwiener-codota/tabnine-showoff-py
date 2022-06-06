@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "tabnine-showoff-py"
+version = "0.1.0"
+description = ""
+authors = ["Guy Wiener <guywiener@tabnine.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+numpy = ">=1.22"
+scipy = ">=1.8"
+scikit-learn = "^1.1.1"
+pandas = "^1.4.2"
+matplotlib = "^3.5.2"
+jupyter = "^1.0.0"
+jupyter-tabnine = "^1.2.3"
+nltk = "^3.7"
+requests = "^2.27.1"
+torch = "^1.11.0"
+transformers = "^4.19.2"
+boto3 = "^1.24.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
